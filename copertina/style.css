@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.hero-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+.hero-bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    filter: brightness(0.5);
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-sizing: border-box;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.navbar .login-btn {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.hero-content {
+    z-index: 1;
+}
+
+.hero-content h1 {
+    font-size: 72px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.hero-content .cta-btn {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.gym-info-section {
+    background-color: #333;
+    color: white;
+    padding: 80px 50px;
+    text-align: center;
+}
+
+.gym-info-section .section-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 50px;
+}
+
+.gym-info-section .image-box {
+    flex: 1;
+    min-width: 300px;
+}
+
+.gym-info-section .section-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.gym-info-section .text-box {
+    flex: 1;
+    text-align: left;
+}
+
+.gym-info-section h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.gym-info-section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Client Info Section Styles */
+.client-info-section {
+    background-color: #333;
+    color: white;
+    padding: 80px 50px;
+    text-align: center;
+}
+
+.client-info-section .section-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 50px;
+}
+
+.client-info-section .image-box {
+    flex: 1;
+    min-width: 300px;
+}
+
+.client-info-section .section-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.client-info-section .text-box {
+    flex: 1;
+    text-align: left;
+}
+
+.client-info-section h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.client-info-section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Styling for horizontal rules */
+hr {
+    border: none;
+    border-top: 1px solid #555;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
