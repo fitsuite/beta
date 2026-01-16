@@ -184,3 +184,34 @@ hr {
     margin: 0;
     padding: 0;
 }
+
+/* Trailer Section Styles */
+.trailer-section {
+    background-color: #333;
+    color: white;
+    padding: 80px 50px;
+    text-align: center;
+}
+
+.trailer-section .section-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.trailer-section h2 {
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+.trailer-section .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trailer-section iframe {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+}
