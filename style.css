@@ -194,6 +194,10 @@ hr {
 }
 
 .trailer-section .section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -201,9 +205,11 @@ hr {
 .trailer-section h2 {
     font-size: 48px;
     margin-bottom: 40px;
+    text-align: center;
 }
 
 .trailer-section .video-container {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -211,7 +217,7 @@ hr {
 
 .trailer-section iframe {
     border-radius: 8px;
-    max-width: 100%;
-    height: auto;
-    aspect-ratio: 16/9;
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
 }
